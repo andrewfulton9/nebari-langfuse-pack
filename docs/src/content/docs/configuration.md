@@ -1,3 +1,8 @@
+---
+title: Configuration Reference
+description: Configuration reference for the Nebari Langfuse Pack.
+---
+
 # Configuration Reference
 
 This document covers all configuration surfaces for the `nebari-langfuse` pack.

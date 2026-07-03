@@ -9,8 +9,9 @@ CLAUDE.md
 # Internal planning/scaffolding - not part of the shipped pack
 docs/superpowers/
 
-# Docs (Docusaurus)
+# Docs (Astro)
 docs/node_modules/
-docs/build/
-docs/.docusaurus/
+*dist/
+docs/.astro/
 docs/.cache-loader/
+npm-debug.log*

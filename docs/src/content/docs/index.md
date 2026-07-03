@@ -1,10 +1,6 @@
 ---
 title: Introduction
 description: Documentation for the Nebari Langfuse Pack, an LLM observability solution for Nebari.
-slug: /
-sidebar_position: 1
-last_update:
-  date: 2026-06-19
 ---
 
 # Nebari Langfuse Pack
