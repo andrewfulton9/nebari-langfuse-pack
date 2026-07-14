@@ -63,14 +63,11 @@ To test with the production base path: `BASE=/nebari-langfuse-pack/ make docs-ch
 
 Pages live in `src/content/docs/`. Each `.md` or `.mdx` file becomes a page. The sidebar is configured in `astro.config.mjs` under `starlight.sidebar`.
 
-## Updating nebari design tokens
+## Updating the Nebari theme
 
-`src/styles/nebari-tokens.css` is copied from the [nebari-design](https://github.com/nebari-dev/nebari-design) repository. To update the primitive color ramps, fetch the latest from a reference pack:
-
-```bash
-gh api "repos/nebari-dev/nebi-pack/contents/docs/src/styles/nebari-tokens.css?ref=main" \
-  --jq '.content' | base64 -d > src/styles/nebari-tokens.css
-```
+Shared Nebari branding (colors, fonts, logo, favicon, footer, GitHub link) comes from the
+[`@nebari/starlight`](https://github.com/nebari-dev/starlight) plugin. To pick up theme
+updates, bump the `@nebari/starlight` version in `package.json` and run `npm install`.
 
 ## CI
 
